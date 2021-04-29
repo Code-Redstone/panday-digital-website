@@ -3,9 +3,9 @@
     <v-row>
         <v-col class="Text-center"  cols="12" >
             <div class="div text-center">
-            <h3 class="blue--text font-weight-light text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 ">GROW TRAFFIC & INCREASE REVENUE</h3>
-            <h2  class="blue--text text-xl-h2 text-lg-h4 text-md-h5 text-sm-h3 font-weight-bold py-5"> Be On the Top & Get More Traffic to Your Website</h2>
-            <p class="text-h6 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">As the top digital marketing agency in the Philippines, we are honored to illuminate your ideas when it comes to steering your digital journey forward. Here are our top-rated services that attest to our legacy for you.</p>
+              <h3 class="black--text text--secondary font-weight-light text-xl-h4 text-lg-h5 text-md-h6 text-sm-h4 ">GROW TRAFFIC & INCREASE REVENUE</h3>
+              <h2  class="black--text text--secondary text-xl-h2 text-lg-h4 text-md-h5 text-sm-h3 font-weight-bold py-5"> Be On the Top & Get More Traffic to Your Website</h2>
+              <p class="black--text text--secondary text-h6 font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">As the top digital marketing agency in the Philippines, we are honored to illuminate your ideas when it comes to steering your digital journey forward. Here are our top-rated services that attest to our legacy for you.</p>
             </div>
         </v-col>            
         <v-col class="text-center" cols="4" sm="12" md="4" lg="4" xl="4" v-for="seo in seos " :key="seo.id" >

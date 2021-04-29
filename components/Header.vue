@@ -4,9 +4,12 @@
 		<div class="mainmenu">
             <img :src="require(`~/assets/resources/Panday-digital-long2.png`)" alt="" width="10%">
 			<nav class="float">
-				<nuxt-link to="/"> <h1 class="font-weight-regular text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2"> HOME </h1></nuxt-link>
-				<nuxt-link to="about"> <h1 class="font-weight-regular text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2"> ABOUT </h1></nuxt-link>
-				<nuxt-link to="article"> <h1 class="font-weight-light text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2"> ARTICLE </h1></nuxt-link>
+				<nuxt-link to="/"><h1 class="font-weight-regular black--text text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">HOME</h1></nuxt-link>
+				<nuxt-link to="about"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ABOUT</h1></nuxt-link>
+                <nuxt-link to="offers"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">OFFERS</h1></nuxt-link>
+                <nuxt-link to="services"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">SERVICES  </h1></nuxt-link>
+				<nuxt-link to="article"> <h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">ARTICLE</h1></nuxt-link>
+                <nuxt-link to="contact"><h1 class="font-weight-regular black--text text-xl-h1 text-lg-h1 text-md-h5 text-sm-h2">CONTACT US</h1></nuxt-link>
 			</nav>
 		</div>
 	  </div>
@@ -61,17 +64,16 @@ nav {
 nav a {
 	display: block;
 	margin: 0 15px;
-	color: #9f25cf;
+	color:#000;
 }
 .float-left{
 	float: right !important;
 }
-header {
+header { 
     width: 100%;
     height: 100px;
     display: flex;
     box-shadow: 10px 0px 19px #272626;
-    border-radius: 0px 14px 0px 14px;
     z-index: 9;
     position: fixed;
     background-color: white;
@@ -99,5 +101,6 @@ header {
 }
 .d-flex{
     align-items: center !important;
+    display: flex;
 }
 </style>

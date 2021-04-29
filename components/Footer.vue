@@ -1,6 +1,6 @@
 <template>
 <v-app id="app">
-    <v-content>
+    <v-main>
         <v-sheet
         max-width="100%"
         max-height="100%"
@@ -97,7 +97,7 @@
                 </v-row>
             </v-container>
         </v-sheet>
-    </v-content>
+    </v-main>
 </v-app>
 </template>
 

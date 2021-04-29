@@ -1,30 +1,26 @@
 <template>
     <v-app>
-        <v-content>
+        <v-main>
             <v-sheet class="radius" color="#1b75bb" height="600" width="100%" style="    margin-top: 100px;">
                 <v-container>
-                    <v-row justify-content: space-evenly; no-gutters align-items: stretch;>
+                    <v-row justify-content:space-evenly no-gutters align-items:stretch>
                         <v-col class=" center" sm="12" md="6" lg="6" xl="6" color="white">
                             <div class="d-block ">
                                 <h1 class="line-height-h1 white--text font-weight-bold py-5 text-xl-h2 text-lg-h3 text-md-h5 text-sm-h2">A Full Service Digital Marketing Agency in the Philippines</h1>
                                 <p class="white--text font-weight-light text-xl-h4 text-lg-h5 text-md-subtitle-1 text-sm-h5">Try Our Time Tested Effective Digital Marketing Strategies for Your Business!</p><br><br>
                             </div>
-                            </v-col>
-                            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                                <div class="first-image">
-                                    <v-img
-                                     :src="require(`~/assets/resources/Aboutus.png`)" alt=""
-                                    >
-
-                                    </v-img>
-                                </div>
+                        </v-col>
+                        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+                            <div class="first-image">
+                                <img src="/_nuxt/assets/resources/Aboutus.png" alt="" />
+                            </div>
                         </v-col>
                     </v-row>
                 </v-container>
             </v-sheet>
             <svg id="hill-side-round" style="fill: white;height: 100px;width: 100%;transform: scaleY(-1)scaleX(-1);background: rgb(27, 117, 187)" preserveAspectRatio="none" viewBox="0 0 1442 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path class="divider-color" d="M1442,34.6187945 C1315.02765,14.2772114 1160.84924,2.89696087 977.282647,2.89696087 C645.766901,2.89696087 281.275997,40.0139604 0,100 L0,0 L1442,0 L1442,34.6187945 Z"></path> </svg>
-        </v-content>
-        <v-content>
+        </v-main>
+        <v-main>
             <v-container>
                 <v-row>
                     <v-col cols="12" class="">
@@ -49,8 +45,8 @@
                     </v-col>
                 </v-row>
             </v-container>
-        </v-content>
-        <v-content>
+        </v-main>
+        <v-main>
             <v-container>
                 <v-row>
                     <v-col class="text-center" cols="4" sm="12" md="6" lg="3" xl="3"  >
@@ -77,7 +73,7 @@
                         <v-card
                         class="pa-11 Digital-Services3 Services-Font rounded-xl"
                         outlined
-                        color="#508fe6  "
+                        color="#508fe6"
                         >
                             <h1 class="mb-5 px-1 white--text text-center Services-Font text-xl-h3 text-lg-h6 text-md-h6 text-sm-h4 pt-5 font-weight-thin">hey test</h1>
                             <p class="mb-5 px-1 grey--text text--darken-3 text-center Services-Font text-xl-h6 text-lg-h6 text-md-h6 text-sm-h4 pt-5">hey test</p>
@@ -95,7 +91,7 @@
                     </v-col>                                                            
                 </v-row>
             </v-container>
-        </v-content>
+        </v-main>
     </v-app>
 </template>
 <script>

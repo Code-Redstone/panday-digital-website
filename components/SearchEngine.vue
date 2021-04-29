@@ -11,7 +11,7 @@
                 <v-card
                 class="pa-11 Digital-Services Services-Font rounded-xl"
                 outlined
-                color="rgb(45 153 236)"
+                color="rgb(255 255 255 / 9%)"
                 >
                 <v-img
                     class="mb-2" 
